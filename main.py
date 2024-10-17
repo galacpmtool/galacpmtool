@@ -45,8 +45,8 @@ def banner(console):
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text, end=None)
-    console.print("[bold green]♕ CPMgala[/bold green]: скрипт который поможет вам стать самым крутым.")
-    console.print(f"[bold green]♕ Telegram[/bold green]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue] or [bold blue]@{__GROUP_USERNAME__}[/bold blue].")
+    console.print("[bold green]♕ GALACPMTOOL[/bold green]: скрипт который поможет вам стать самым крутым.")
+    console.print(f"[bold green]♕ TELEGRAM:[/bold green]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue] or [bold blue]@{__GROUP_USERNAME__}[/bold blue].")
     console.print("[bold red]==================================================[/bold red]")
     console.print("[bold yellow]! Note[/bold yellow]: Вам нужно выйти с игры перед использованием !.", end="\n\n")
     
