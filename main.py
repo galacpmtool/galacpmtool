@@ -45,11 +45,11 @@ def banner(console):
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text, end=None)
-    console.print("[bold green]♕ GALACPMTOOL[/bold green]: скрипт который поможет вам стать самым крутым.")
-    console.print(f"[bold green]♕ TELEGRAM:[/bold green]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue] or [bold blue]@{__GROUP_USERNAME__}[/bold blue].")
-    console.print("[bold red]==================================================[/bold red]")
-    console.print("[bold yellow]! Note[/bold yellow]: Вам нужно выйти с игры перед использованием !.", end="\n\n")
-    
+    console.print("[bold][red]==================================================================[/red][/bold]")
+    console.print("\t   𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
+    console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
+    console.print(f"             [bold green]𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐁𝐎𝐓 [/bold green]: [bold cyan]@cpmsalebot[/bold cyan] 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 [bold cyan]@cpmtool[/bold cyan]") 
+    console.print("[bold][red]==================================================================[/red][/bold]")
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
