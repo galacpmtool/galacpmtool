@@ -1,23 +1,15 @@
-1. pkg update 
+1. apk update
 
-2. pkg upgrade -y
+2. apk add git
 
-3. pkg install git
+3. apk add python3
 
-4. pkg install python-pip
+4. apk add py3-pip
 
-5. git clone https://github.com/galacpmtool/galacpmtool.git
+5. git clone https://github.com/CPMgalatool/CPMgalatool.git
 
-6. cd galacpmtool
+6. cd CPMgalatool
 
-7. git pull
+7. pip3 install -r requirements.txt
 
-8. python3 -m pip install requests
-
-9. pkg i python-numpy
-
-10. pip install rich --upgrade
-
-11. pip install -r requirements.txt
-
-12. python main.py
+8. python3 main.py
